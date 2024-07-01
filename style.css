@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sora;
+}
+
+body {
+  background-color: #fff;
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  height: 100vh;
+  transition: background-color .5s ease, color .5s ease;
+}
+
+
+
+
+.carta {
+  background-color: #FAFAF9;
+  padding: 20px;
+  border-radius: 12px;
+  width: 350px;
+  margin: auto;
+  box-shadow: 10px 0 45px 0 #E5EAF0;
+  transition: background-color .5s ease, box-shadow .5s ease;
+}
+
+
+.container-img {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 1.125rem;
+  margin: 0 0 6px 0;
+  color: #20293A;
+  transition: color .5s ease;
+}
+
+h1:hover {
+  color: #3b4b69;
+}
+
+p {
+  margin: 0 0 20px 0;
+  color: #6C727F;
+  transition: color .5s ease;
+}
+
+p:hover {
+  color: #545a66;
+}
+
+.figcaption-span {
+  background-color: #E6D6FC;
+  color: #883AE1;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 50px;
+  margin: 16px 0 16px 0;
+  padding: 3px 16px;
+  align-self: flex-start;
+  transition: color .5s ease, background-color .5s ease;
+}
+
+.figcaption-span:hover {
+  color: #7700ff;
+}
+
+.footer-span {
+  font-size: 0.625rem;
+  color: #6C727F;
+  transition: color .5s ease;
+}
+
+.footer-span:hover {
+  color: #545a66;
+}
+
+.separator {
+  border-top: 1px solid #E5EAF0;
+  width: 21.9rem;
+  margin-left: -20px;
+}
+
+
+
+/* For dark- mode */
+body.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+body.dark-mode h1 {
+  color: #fff;
+}
+
+body.dark-mode p {
+  color: #aaa;
+}
+
+body.dark-mode .figcaption-span {
+  background-color: #444;
+  color: #ddd;
+}
+
+body.dark-mode .footer-span {
+  color: #ddd;
+}
+
+.apagador {
+  margin-top: 50px;
+}
+
+body.dark-mode .carta {
+  background-color: #333;
+  box-shadow: 10px 0 45px 0 #444;
+}
+
+
+
+button {
+  border-radius: 8px;
+  border: none;
+  background-color: #20293A;
+  color: #fff;
+  padding: 2px 6px;
+  cursor: pointer;
+}
